@@ -1,10 +1,10 @@
 <script setup>
-
+import splash from './components/splash.vue';
 </script>
 
 <template>
 
-  <p >test</p>
+  <splash/>
 </template>
 
 <style scoped>
