@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {colors: {
       'mygrey': '#0F100E',
+      'mywhite': '#ECECEC',
+      'mygreen': '#BBFB05',
     },},
   },
   plugins: [],

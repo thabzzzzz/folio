@@ -5,6 +5,11 @@
 </script>
 
 <template>
+
+
+ 
+  
+ 
      <div class="min-h-screen bg-mygrey flex flex-col items-center justify-center" @click="handleClick">
     <div class="flex items-center">
       <img src="../assets/images/alien.svg" alt="" class="inline-block w-16">
@@ -13,19 +18,11 @@
     </div>
     <span class="loading text-7xl"></span>
   </div>
-    
+
 </template>
 
 <style scoped>
-@font-face {
-    font-family: start;
-    src: url(../assets/fonts/start.ttf);
-}
 
-@font-face {
-    font-family: afacad;
-    src: url(../assets/fonts/afacad.ttf);
-}
  h4, .loading{
     font-family: start;
     color: #B6F405;
