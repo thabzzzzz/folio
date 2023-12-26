@@ -4,7 +4,7 @@ import splash from './components/splash.vue';
 
 <template>
 
-  <splash/>
+  <RouterView/>
 </template>
 
 <style scoped>

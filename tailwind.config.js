@@ -5,7 +5,9 @@ export default {
     './src/**/*.vue',
   ],
   theme: {
-    extend: {},
+    extend: {colors: {
+      'mygrey': '#0F100E',
+    },},
   },
   plugins: [],
 }
