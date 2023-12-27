@@ -17,6 +17,10 @@
       <component :is="Component" />
     </transition>
   </RouterView>
+
+
+
+
 </template>
 
 <style scoped>

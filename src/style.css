@@ -11,3 +11,18 @@
     font-family: afacad;
     src: url(./assets/fonts/afacad.ttf);
 }
+
+@font-face {
+    font-family: pacman;
+    src: url(./assets/fonts/crackman.otf);
+}
+
+@font-face {
+    font-family: mario;
+    src: url(./assets/fonts/mario.ttf);
+}
+
+@font-face {
+    font-family: ls;
+    src: url(./assets/fonts/ls.ttf);
+}

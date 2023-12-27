@@ -3,9 +3,8 @@
    
     
     
-<div class="min-h-screen bg-mywhite flex flex-col ">
-
-    
+<div class="min-h-screen bg-mywhite flex flex-col  ">
+    <div class="mx-4">
 <nav >
   <div class="max-w-screen flex flex-wrap items-center justify-between mx-0 ">
     <ul class="font-medium flex flex-col  mt-4 bg-mywhite ">
@@ -28,8 +27,23 @@
   </div>
 </nav>
 
-<p id="test">ggs</p>
+<div class="grid grid-cols-6 mt-24">
 
+<div class="col-span-4">
+    <h1 class="text-mygreen mr-16 text-3xl ">intro</h1>
+    <p class="mt-24 text-2xl">I craft digital solutions that immerse and inspire
+        
+people through development and design.</p>
+</div>
+<div class="pt-10 welcome-block">
+    <h2 class="welcome text-6xl" id="w1">welcome</h2>
+    <h2 class="welcome text-6xl mt-6" id="w2">welcome</h2>
+    <h2 class="welcome text-5xl mt-6" id="w3">welcome</h2>
+</div>
+
+</div>
+
+</div>
 </div>    
 
 
@@ -54,5 +68,30 @@
 #test{
     right: 0;
     position: absolute;
+}
+
+h1{
+    font-family: start;
+}
+
+p{
+    font-family: afacad;
+    
+}
+
+#w1{
+    font-family: pacman;
+}
+
+#w2{
+    font-family: mario;
+}
+
+#w3{
+    font-family: ls;
+}
+
+.welcome-block{
+    right: 0px;
 }
 </style>
