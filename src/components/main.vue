@@ -48,7 +48,7 @@ people through development and design.</p>
 <div class="scroll slide bg-mygreen mb-24 ">
   <div class="m-scroll bg-mygreen ">
     <div>
-      <!-- Duplicate text content for a seamless loop -->
+   
       <h1>
         <span>dev </span><span>design </span><span>branding </span>
         <span>dev </span><span>design </span><span>branding </span>
@@ -56,18 +56,43 @@ people through development and design.</p>
     </div>
   </div>
 </div>
-<div class="about-me-section ">
+<div class="about-me-section mt-36 px-24">
     <div class="about-me text-center">
         <h4 class="text-4xl text-mygreen ">about me</h4>
     </div>
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 my-40">
         <div class="col-span-1">
-            gg
+            <img src="../assets/images/photo2.png" class="photo " alt="">
         </div>
-        <div class="col-span-1">
-            gg
+        <div class="col-span-1  section2">
+
+           <div class="text-2xl text-white s2 pt-20">
+                Hi, I'm Thabiso Mosenohi. I'm a multidisciplinary
+                web developer based in Pretoria. Fluent
+                in frontend, backend, and design, I combine
+                these skills to craft a seamless, well-rounded
+                digital solution.
+            </div>
+            <br><br>
+           <div class="text-2xl text-white s2">
+                Having an educational background of 4 years 
+                doing the BiS Multimedia course at the
+                University of Pretoria, my expertise lie in the 
+                backend , and although I didn't manage to 
+                finish the course, I have an extensive knowledge 
+                base and eager to prove myself and learn more.
+            </div>
+            <br><br>
+            <div class="text-2xl text-white s2">
+                When I'm not developing or designing,
+                I enjoy following PC hardware trends, old
+                school arcade games, dabbling in game 
+                engines and binging anime.   
+
+            </div>
         </div>
     </div>
+    <div><p>gg</p></div>
 </div>
 
 
@@ -197,6 +222,15 @@ span {
 
 .flex-grow{
     height: 270px;
+}
+
+.section2{
+    width: 87%;
+}
+
+.photo{
+    height: 600px;
+    width: 680px;
 }
 
 </style>
