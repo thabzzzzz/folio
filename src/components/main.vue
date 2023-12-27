@@ -62,7 +62,7 @@ people through development and design.</p>
     </div>
     <div class="grid grid-cols-2 my-40">
         <div class="col-span-1">
-            <img src="../assets/images/photo2.png" class="photo " alt="">
+            <img src="../assets/images/photo2.png" class="photo " alt="thabiso photo">
         </div>
         <div class="col-span-1  section2">
 
@@ -92,7 +92,28 @@ people through development and design.</p>
             </div>
         </div>
     </div>
-    <div><p>gg</p></div>
+    
+
+
+
+
+
+
+    <div class="about-me-section mt-36 px-24 ">
+    <div class="about-me text-center">
+        <h4 class="text-4xl text-mygreen mb-24 ">skills</h4>
+    </div>
+    
+    <h2 class="text-2xl">Frontend:</h2><img src="../assets/images/f.png" alt="metalslug f">
+    <div class="grid grid-cols-2">
+        <div class="text-center">
+            <img src="../assets/images/html.png" alt="html" class="skillblock">
+        </div>
+        <div class="text-center">
+            <img src="../assets/images/css.png" alt="css" class="skillblock">
+        </div>
+    </div>
+</div>
 </div>
 
 
@@ -231,6 +252,10 @@ span {
 .photo{
     height: 600px;
     width: 680px;
+}
+
+.skillblock{
+    width: 400px;
 }
 
 </style>
