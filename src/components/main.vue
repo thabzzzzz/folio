@@ -3,7 +3,7 @@
    
     
     
-<div class="min-h-screen bg-mygrey flex flex-col  ">
+<div class="min-h-screen bg-mygrey flex flex-col  relative ">
     <div class="mx-4">
         <nav>
         <div class="max-w-screen flex flex-wrap items-center justify-between mx-0">
@@ -43,10 +43,10 @@ people through development and design.</p>
 
 </div>
 
+<div class="flex-grow "></div>
 
-
-<div class="scroll slide bg-mygreen h-28 ">
-  <div class="m-scroll bg-mygreen h-28">
+<div class="scroll slide bg-mygreen mb-24 ">
+  <div class="m-scroll bg-mygreen ">
     <div>
       <!-- Duplicate text content for a seamless loop -->
       <h1>
@@ -56,7 +56,19 @@ people through development and design.</p>
     </div>
   </div>
 </div>
-
+<div class="about-me-section ">
+    <div class="about-me text-center">
+        <h4 class="text-4xl text-mygreen ">about me</h4>
+    </div>
+    <div class="grid grid-cols-2">
+        <div class="col-span-1">
+            gg
+        </div>
+        <div class="col-span-1">
+            gg
+        </div>
+    </div>
+</div>
 
 
 
@@ -145,20 +157,13 @@ h2,p{
   }
 }
 
-.slide {
-
-  margin-top: auto;
-}
-
 .scroll {
-  position: relative;
-  width: 100vw;
-  height: 15%;
-  min-height: 150px;
-  background-color: #252525;
+  margin-top: auto;
+  margin-bottom: 24px;
+  width: 100%;
+  background-color: #0F100E;
   overflow: hidden;
   z-index: 1;
-  margin: 0;
   padding: 0;
 }
 
@@ -188,6 +193,10 @@ span {
   to {
     transform: translateX(-50%);
   }
+}
+
+.flex-grow{
+    height: 270px;
 }
 
 </style>
