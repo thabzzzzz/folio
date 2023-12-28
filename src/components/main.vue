@@ -104,14 +104,49 @@ people through development and design.</p>
         <h4 class="text-4xl text-mygreen mb-24 ">skills</h4>
     </div>
     
-    <h2 class="text-2xl">Frontend:</h2><img src="../assets/images/f.png" alt="metalslug f">
-    <div class="grid grid-cols-2">
-        <div class="text-center">
+    <div class="flex items-center mb-24">
+        <h2 class="text-5xl">Frontend:</h2>
+        <img src="../assets/images/f.png" alt="metalslug f" class="ml-2 w-16" />
+    </div>
+
+    <div class="grid grid-cols-2 pl-52">
+
+        <div class="text-center mb-24">
             <img src="../assets/images/html.png" alt="html" class="skillblock">
         </div>
-        <div class="text-center">
+        <div class="text-center mb-24">
             <img src="../assets/images/css.png" alt="css" class="skillblock">
         </div>
+
+        <div class="text-center mb-24">
+            <img src="../assets/images/js.png" alt="js" class="skillblock">
+        </div>
+        <div class="text-center mb-24">
+            <img src="../assets/images/jquery.png" alt="jquery" class="skillblock">
+        </div>
+
+
+        <div class="text-center mb-24">
+            <img src="../assets/images/vue.png" alt="vue" class="skillblock">
+        </div>
+        <div class="text-center mb-24">
+            <img src="../assets/images/bootstrap.png" alt="bootstrap" class="skillblock">
+        </div>
+
+        <div class="text-center mb-24">
+            <img src="../assets/images/tailwind.png" alt="tailwind" class="skillblock">
+        </div>
+        
+
+
+    
+
+
+
+    </div>
+    <div class="flex items-center mb-24">
+        <h2 class="text-5xl">Backend:</h2>
+        <img src="../assets/images/b.png" alt="metalslug b" class="ml-2 w-16" />
     </div>
 </div>
 </div>
@@ -256,6 +291,16 @@ span {
 
 .skillblock{
     width: 400px;
+}
+
+.flex {
+  display: flex;
+  align-items: center; /* Vertically align items */
+}
+
+/* Additional margin for space between text and image */
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 </style>
