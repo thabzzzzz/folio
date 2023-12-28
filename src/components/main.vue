@@ -104,10 +104,13 @@ people through development and design.</p>
         <h4 class="text-4xl text-mygreen mb-24 ">skills</h4>
     </div>
     
+
     <div class="flex items-center mb-24">
         <h2 class="text-5xl">Frontend:</h2>
         <img src="../assets/images/f.png" alt="metalslug f" class="ml-2 w-16" />
     </div>
+
+    <!-- front end skills -->
 
     <div class="grid grid-cols-2 pl-52">
 
@@ -148,6 +151,33 @@ people through development and design.</p>
         <h2 class="text-5xl">Backend:</h2>
         <img src="../assets/images/b.png" alt="metalslug b" class="ml-2 w-16" />
     </div>
+
+    <!-- backend skills -->
+
+    <div class="grid grid-cols-2 pl-52">
+
+<div class="text-center mb-24">
+    <img src="../assets/images/php.png" alt="php" class="skillblock">
+</div>
+<div class="text-center mb-24">
+    <img src="../assets/images/laravel.png" alt="laravel" class="skillblock">
+</div>
+
+<div class="text-center mb-24">
+    <img src="../assets/images/mysql.png" alt="mysql" class="skillblock">
+</div>
+<div class="text-center mb-24">
+    <img src="../assets/images/api.png" alt="api" class="skillblock">
+</div>
+
+
+</div>
+
+<!-- end of backend -->
+
+
+
+
 </div>
 </div>
 
