@@ -209,9 +209,9 @@
 
 <div class="about-me text-center mt-60">
             <h4 class="text-4xl text-mygreen ">projects</h4>
-        </div>
+ </div>
         <div class="grid grid-cols-6 my-40">
-
+          
           <div class="col-span-4">
            <h3 class="mb-10 text-4xl pr-24">1. Pumplink</h3>
            <img src="../assets/images/pumplink.jpg" class="project-imgs mb-16" alt="pumplink">
@@ -219,18 +219,17 @@
                                 Needed some modernisation with UI elements and
                                 theming, and  a dynamic quotation generator for 
                                 their products and services
-
             </p>
           </div>
           
-          <div>
+          <div class="mb-64">
            <div class="mini-skills grid grid-cols-2 gap-2 ">
               <div class="">
-                <img src="../assets/images/laravel.png"  class="">
+                <img src="../assets/images/laravel.png"  class="w-56">
                 
               </div>
               <div >
-                <img src="../assets/images/bootstrap.png" >
+                <img src="../assets/images/bootstrap.png" class="w-56">
               </div>
               <div >
                 <img src="../assets/images/html.png" >
@@ -242,9 +241,43 @@
 
            </div>
           </div>
-
+          
           <!-- end of pumplink -->
+ 
+          <div class="col-span-2 secondprojsb">
+            <div class="mini-skills2 grid grid-cols-2 gap-2 ">
+              <div class="even-div sb2">
+                <img src="../assets/images/laravel.png"  class="w-40">
+                
+              </div>
+              <div class="even-div ">
+                <img src="../assets/images/bootstrap.png" class="w-40" >
+              </div>
+              <div class="even-div sb2">
+                <img src="../assets/images/html.png" class="w-40">
+              </div>
 
+              <div class="even-div">
+                <img src="../assets/images/mysql.png" class="w-40">
+              </div>
+
+              <div class="even-div sb2">
+                <img src="../assets/images/jquery.png" class="w-40">
+              </div>
+
+           </div>
+          </div>
+          
+          <div class="col-span-4">
+            <h3 class="mb-10 text-4xl pr-24  even-name">2. genie</h3>
+           <img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie">
+           <p class="text-3xl">Wishlist site where users can register an account and create their personal wishlists.
+                                Once registerd, users can create, delete and update their wishlist items. 
+                                Unregistered users and users that try to access the main page are instead redirected to the login/registration page.
+                                It also has simple search funtionality to quickly look up specific items. It has data aggregation in the form of price summation and formatting, and displays the items via bootstrap cards.
+
+            </p>
+          </div>
 
         </div>
 
@@ -392,10 +425,10 @@
 
     .flex {
       display: flex;
-      align-items: center; /* Vertically align items */
+      align-items: center; 
     }
 
-    /* Additional margin for space between text and image */
+   
     .ml-2 {
       margin-left: 0.5rem;
     }
@@ -412,4 +445,25 @@
       padding-top:480px ;
     }
 
+    .mini-skills2{
+      padding-top:410px ;
+    }
+
+    .even-name{
+      right:0;
+    }
+
+
+    .even-div{
+      width: 200px;
+
+    }
+
+    .sb2{
+      margin-left: 120px;
+    }
+
+    .secondprojsb{
+      top:-550px;
+    }
     </style>
