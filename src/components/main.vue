@@ -29,7 +29,7 @@
 
     <div class="col-span-4">
         
-        <p class="mt-24 text-4xl">I craft digital solutions that immerse and inspire<br>
+        <p class="mt-24 text-4xl ml-20">I craft digital solutions that immerse and inspire<br>
             
     people through development and design.</p>
     </div>
@@ -448,7 +448,7 @@
     }
 
     .flex-grow{
-        height: 270px;
+        height: 360px;
     }
 
     .section2{

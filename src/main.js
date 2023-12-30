@@ -26,7 +26,7 @@ const router = createRouter({
             if (to.hash) {
               return {
                 el: to.hash,
-                behavior: 'smooth', // Enable smooth scrolling behavior
+                behavior: 'smooth', 
               };
             } else if (savedPosition) {
               return savedPosition;
