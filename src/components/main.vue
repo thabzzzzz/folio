@@ -3,7 +3,7 @@
       
         
         
-    <div class="min-h-screen bg-mygrey flex flex-col  relative ">
+    <div class="min-h-screen bg-mygrey flex flex-col  relative " id="page-top">
         <div class="mx-4">
             <nav>
             <div class="max-w-screen flex flex-wrap items-center justify-between mx-0">
@@ -222,7 +222,7 @@
             </p>
           </div>
           
-          <div class="mb-64">
+          <div class="mb-96">
            <div class="mini-skills grid grid-cols-2 gap-2 ">
               <div class="">
                 <img src="../assets/images/laravel.png"  class="w-56">
@@ -268,15 +268,56 @@
            </div>
           </div>
           
-          <div class="col-span-4">
-            <h3 class="mb-10 text-4xl pr-24  even-name">2. genie</h3>
+          <div class="col-span-4 mb-96">
+            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. genie</h3>
            <img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie">
-           <p class="text-3xl">Wishlist site where users can register an account and create their personal wishlists.
+           <p class="text-3xl proj-description">Wishlist site where users can register an account and create their personal wishlists.
                                 Once registerd, users can create, delete and update their wishlist items. 
                                 Unregistered users and users that try to access the main page are instead redirected to the login/registration page.
                                 It also has simple search funtionality to quickly look up specific items. It has data aggregation in the form of price summation and formatting, and displays the items via bootstrap cards.
 
             </p>
+          </div>
+
+          <!-- end of genie -->
+
+          <div class="col-span-4 ">
+           <h3 class="mb-10 text-4xl pr-24">3. SWRV</h3>
+           <img src="../assets/images/swrv.jpg" class="project-imgs mb-16" alt="swrv">
+           <p class="text-3xl">
+            Movie browsing site where users can search and filter curated movie releases dynamically updated through the moviesDB api.
+            </p>
+          </div>
+          
+          <div class="swrv-description">
+           <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
+              <div class="">
+                <img src="../assets/images/api.png"  class="w-56">
+                
+              </div>
+              <div >
+                <img src="../assets/images/tailwind.png" class="w-56">
+              </div>
+              <div >
+                <img src="../assets/images/html.png" >
+              </div>
+
+              <div >
+                <img src="../assets/images/vue.png" >
+              </div>
+
+           </div>
+          </div>
+
+          <!-- end of 3 -->
+          <div class="gameover text-center col-span-6 ">
+            <h4 class="text-6xl text-mygreen">game over</h4>
+
+            <router-link to="#page-top">
+            <h4 class=" text-4xl mt-52 text-mygreen">start again</h4>
+          </router-link> 
+            
+
           </div>
 
         </div>
@@ -450,7 +491,7 @@
     }
 
     .even-name{
-      right:0;
+     margin-left: 910px;
     }
 
 
@@ -466,4 +507,17 @@
     .secondprojsb{
       top:-550px;
     }
+
+    .proj-description{
+      width: 88%;
+    }
+
+    .gameover{
+      margin-top:500px;
+    }
+
+    #page-top {
+  scroll-behavior: smooth;
+}
+    
     </style>

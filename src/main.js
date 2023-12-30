@@ -20,7 +20,20 @@ const routes=[
 const router = createRouter({
 
         history:createWebHistory(),
-        routes:routes
+        routes:routes,
+
+        scrollBehavior(to, from, savedPosition) {
+            if (to.hash) {
+              return {
+                el: to.hash,
+                behavior: 'smooth', // Enable smooth scrolling behavior
+              };
+            } else if (savedPosition) {
+              return savedPosition;
+            } else {
+              return { top: 0 };
+            }
+          },
 
 });
 
