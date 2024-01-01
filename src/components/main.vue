@@ -112,7 +112,7 @@
 
         <!-- front end skills -->
 
-        <div class="grid grid-cols-2 pl-52">
+        <div class="grid grid-cols-2 pl-52 mb-40">
 
             <div class="text-center mb-24">
                 <img src="../assets/images/html.png" alt="html" class="skillblock">
@@ -154,7 +154,7 @@
 
         <!-- backend skills -->
 
-        <div class="grid grid-cols-2 pl-52">
+        <div class="grid grid-cols-2 pl-52 mb-40">
 
             <div class="text-center mb-24">
                 <img src="../assets/images/php.png" alt="php" class="skillblock">
@@ -312,10 +312,11 @@
           <!-- end of 3 -->
           <div class="gameover text-center col-span-6 ">
             <h4 class="text-6xl text-mygreen">game over</h4>
+             
 
             <router-link to="#page-top">
             <h4 class=" text-4xl mt-52 text-mygreen">start again</h4>
-          </router-link> 
+          </router-link>  
             
 
           </div>
@@ -519,5 +520,8 @@
     #page-top {
   scroll-behavior: smooth;
 }
-    
+    .jojo{
+      width: 600px;
+      height: 300px;
+    }
     </style>
