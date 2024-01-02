@@ -309,7 +309,45 @@
            </div>
           </div>
 
-          <!-- end of 3 -->
+          <!-- end of swrv -->
+
+          <div class="col-span-2 secondprojsb">
+            <div class="mini-skills2 grid grid-cols-2 gap-2 ">
+              <div class="even-div sb2">
+                <img src="../assets/images/laravel.png"  class="w-40">
+                
+              </div>
+              <div class="even-div ">
+                <img src="../assets/images/bootstrap.png" class="w-40" >
+              </div>
+              <div class="even-div sb2">
+                <img src="../assets/images/html.png" class="w-40">
+              </div>
+
+              <div class="even-div">
+                <img src="../assets/images/mysql.png" class="w-40">
+              </div>
+
+              <div class="even-div sb2">
+                <img src="../assets/images/jquery.png" class="w-40">
+              </div>
+
+           </div>
+          </div>
+          
+          <div class="col-span-4 mb-96">
+            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. genie</h3>
+           <img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie">
+           <p class="text-3xl proj-description">Wishlist site where users can register an account and create their personal wishlists.
+                                Once registerd, users can create, delete and update their wishlist items. 
+                                Unregistered users and users that try to access the main page are instead redirected to the login/registration page.
+                                It also has simple search funtionality to quickly look up specific items. It has data aggregation in the form of price summation and formatting, and displays the items via bootstrap cards.
+
+            </p>
+          </div>
+          <!-- end of survey -->
+
+          
           <div class="gameover text-center col-span-6 ">
             <h4 class="text-6xl text-mygreen">game over</h4>
              
@@ -502,10 +540,11 @@
  
 
     .start-again-link {
-  display: inline-block;
+      display: inline-block;
   padding: 3px 5px;
-  transition: background-color 0.3s ;
   border-radius: 0;
+  
+  
 }
 
 .start-again-link:hover {
@@ -517,7 +556,7 @@
     background-color: white;
   }
   50% {
-    background-color: black;
+    background-color: rgba(0,0,0,0);
   }
 }
     </style>
