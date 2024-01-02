@@ -8,16 +8,16 @@
             <nav>
             <div class="max-w-screen flex flex-wrap items-center justify-between mx-0">
               <ul class="font-medium flex flex-col mt-4 bg-mygrey">
-                <li class="homelink">
+                <li class="homelink start-again-link">
                   <router-link to="/" class="link text-mygreen text-4xl">thabiso</router-link>
                 </li>
               </ul>
               <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-row p-4 md:p-0 mt-4 bg-mygrey">
-                  <li>
+                  <li class="start-again-link">
                     <router-link to="/" class="link text-mygreen mr-16 text-4xl hover-blink">about</router-link>
                   </li>
-                  <li>
+                  <li class="start-again-link">
                     <router-link to="/" class="link text-mygreen text-4xl hover-blink">projects</router-link>
                   </li>
                 </ul>
@@ -313,9 +313,12 @@
           <div class="gameover text-center col-span-6 ">
             <h4 class="text-6xl text-mygreen">game over</h4>
              
+            <div class="mt-52">
 
-            <router-link to="#page-top">
-            <h4 class=" text-4xl mt-52 text-mygreen">start again</h4>
+            </div>
+
+            <router-link to="#page-top" class="start-again-link">
+            <h4 class=" text-4xl  text-mygreen">start again</h4>
           </router-link>  
             
 
@@ -384,31 +387,7 @@
       padding: 10px 20px;
     }
 
-    .link::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background-color: white;
-      opacity: 0;
-      z-index: -1;
-      animation: blink 0.5s infinite alternate;
-    }
 
-    .link:hover::before {
-      opacity: 1;
-    }
-
-    @keyframes blink {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
 
     .scroll {
       margin-top: auto;
@@ -520,8 +499,25 @@
     #page-top {
   scroll-behavior: smooth;
 }
-    .jojo{
-      width: 600px;
-      height: 300px;
-    }
+ 
+
+    .start-again-link {
+  display: inline-block;
+  padding: 3px 5px;
+  transition: background-color 0.3s ;
+  border-radius: 0;
+}
+
+.start-again-link:hover {
+  animation: alternateColors 2s infinite;
+}
+
+@keyframes alternateColors {
+  0%, 100% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+}
     </style>
