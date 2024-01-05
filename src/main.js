@@ -6,6 +6,7 @@ import App from './App.vue'
 
 import splash from './components/splash.vue'
 import main from './components/main.vue'
+import pumplink from './components/pumplink.vue'
 
 const routes=[
 
@@ -15,6 +16,9 @@ const routes=[
     {
         path:'/main',component:main
     },
+    {
+      path:'/pumplink',component:pumplink
+  },
 ];
 
 const router = createRouter({
