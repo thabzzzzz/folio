@@ -312,16 +312,10 @@
           <!-- end of swrv -->
 
           <div class="col-span-2 secondprojsb">
-            <div class="mini-skills2 grid grid-cols-2 gap-2 ">
+            <div class="mini-skills grid grid-cols-2 gap-2 ">
+            
               <div class="even-div sb2">
-                <img src="../assets/images/laravel.png"  class="w-40">
-                
-              </div>
-              <div class="even-div ">
-                <img src="../assets/images/bootstrap.png" class="w-40" >
-              </div>
-              <div class="even-div sb2">
-                <img src="../assets/images/html.png" class="w-40">
+                <img src="../assets/images/php.png" class="w-40">
               </div>
 
               <div class="even-div">
@@ -336,12 +330,11 @@
           </div>
           
           <div class="col-span-4 mb-96">
-            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. genie</h3>
-           <img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie">
-           <p class="text-3xl proj-description">Wishlist site where users can register an account and create their personal wishlists.
-                                Once registerd, users can create, delete and update their wishlist items. 
-                                Unregistered users and users that try to access the main page are instead redirected to the login/registration page.
-                                It also has simple search funtionality to quickly look up specific items. It has data aggregation in the form of price summation and formatting, and displays the items via bootstrap cards.
+            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">4. fix8</h3>
+           <img src="../assets/images/fix8.jpg" class="project-imgs mb-16" alt="fix8">
+           <p class="text-3xl proj-description">
+
+            Event creation site where users can post events for others to see. The events can be edited by the original user and displayed on the feed for other users to see, who can then rate the events. 
 
             </p>
           </div>
