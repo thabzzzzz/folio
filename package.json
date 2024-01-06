@@ -9,7 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "flickity": "^3.0.0",
+    "flowbite": "^2.2.1",
     "vue": "^3.3.11",
+    "vue-carousel": "^0.18.0",
+    "vue-flickity": "^1.2.1",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

@@ -3,6 +3,7 @@ export default {
   content: [
     './index.html',
     './src/**/*.vue',
+    "./node_modules/flowbite/**/*.{js,ts}"
   ],
   theme: {
     extend: {colors: {
@@ -11,6 +12,9 @@ export default {
       'mygreen': '#BBFB05',
     },},
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
+  
 }
 
