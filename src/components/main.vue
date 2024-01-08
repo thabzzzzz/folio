@@ -15,10 +15,10 @@
               <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium flex flex-row p-4 md:p-0 mt-4 bg-mygrey">
                   <li class="start-again-link">
-                    <router-link to="/" class="link text-mygreen mr-16 text-4xl hover-blink">about</router-link>
+                    <router-link to="#aboutme" class="link text-mygreen mr-16 text-4xl hover-blink">about</router-link>
                   </li>
                   <li class="start-again-link">
-                    <router-link to="/" class="link text-mygreen text-4xl hover-blink">projects</router-link>
+                    <router-link to="#projects" class="link text-mygreen text-4xl hover-blink">projects</router-link>
                   </li>
                 </ul>
               </div>
@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-    <div class="about-me-section mt-36 px-24">
+    <div class="about-me-section mt-36 px-24" id="aboutme">
         <div class="about-me text-center">
             <h4 class="text-4xl text-mygreen ">about me</h4>
         </div>
@@ -207,14 +207,15 @@
 
 <!-- projs -->
 
-<div class="about-me text-center mt-60">
+<div class="about-me text-center mt-60" id="projects">
             <h4 class="text-4xl text-mygreen ">projects</h4>
  </div>
         <div class="grid grid-cols-6 my-40">
           
           <div class="col-span-4">
-           <h3 class="mb-10 text-4xl pr-24">1. Pumplink</h3>
-           <img src="../assets/images/pumplink.jpg" class="project-imgs mb-16" alt="pumplink">
+            <router-link to="pumplink"> <h3 class="mb-10 text-4xl pr-24">1. Pumplink</h3></router-link>
+          
+           <router-link to="pumplink"><img src="../assets/images/pumplink.jpg" class="project-imgs mb-16" alt="pumplink"></router-link>
            <p class="text-3xl">Site rebuild and rebrand for Pumplink using Laravel. 
                                 Needed some modernisation with UI elements and
                                 theming, and  a dynamic quotation generator for 
@@ -269,12 +270,10 @@
           </div>
           
           <div class="col-span-4 mb-96">
-            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. genie</h3>
-           <img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie">
-           <p class="text-3xl proj-description">Wishlist site where users can register an account and create their personal wishlists.
-                                Once registerd, users can create, delete and update their wishlist items. 
-                                Unregistered users and users that try to access the main page are instead redirected to the login/registration page.
-                                It also has simple search funtionality to quickly look up specific items. It has data aggregation in the form of price summation and formatting, and displays the items via bootstrap cards.
+            <router-link to="genie"><h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. genie</h3></router-link>
+           <router-link to="genie"><img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie"></router-link> 
+           <p class="text-3xl proj-description">
+            Wishlist site where users can create/modify or delete wishlist items
 
             </p>
           </div>
@@ -282,8 +281,8 @@
           <!-- end of genie -->
 
           <div class="col-span-4 ">
-           <h3 class="mb-10 text-4xl pr-24">3. SWRV</h3>
-           <img src="../assets/images/swrv.jpg" class="project-imgs mb-16" alt="swrv">
+           <router-link to="swrv"><h3 class="mb-10 text-4xl pr-24">3. SWRV</h3></router-link>
+           <router-link to="swrv"><img src="../assets/images/swrv.jpg" class="project-imgs mb-16" alt="swrv"></router-link>
            <p class="text-3xl">
             Movie browsing site where users can search and filter curated movie releases dynamically updated through the moviesDB api.
             </p>
@@ -330,8 +329,8 @@
           </div>
           
           <div class="col-span-4 mb-96">
-            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">4. fix8</h3>
-           <img src="../assets/images/fix8.jpg" class="project-imgs mb-16" alt="fix8">
+            <router-link to="fix8"><h3 class="mb-10 text-4xl pr-24  even-name odd-name">4. fix8</h3></router-link>
+            <router-link to="fix8"><img src="../assets/images/fix8.jpg" class="project-imgs mb-16" alt="fix8"></router-link>
            <p class="text-3xl proj-description">
 
             Event creation site where users can post events for others to see. The events can be edited by the original user and displayed on the feed for other users to see, who can then rate the events. 

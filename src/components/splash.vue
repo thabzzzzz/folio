@@ -56,10 +56,12 @@
 </style>
 
 <script>
+
+
  export default{
   methods: {
     handleClick() {
-     
+      this.$router.push({ path: '/main' });
       console.log('test');
     }
  }}

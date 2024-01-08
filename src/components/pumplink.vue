@@ -9,14 +9,7 @@
                 </li>
               </ul>
               <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="font-medium flex flex-row p-4 md:p-0 mt-4 bg-mygrey">
-                  <li class="start-again-link">
-                    <router-link to="/" class="link text-mygreen mr-16 text-4xl hover-blink">about</router-link>
-                  </li>
-                  <li class="start-again-link">
-                    <router-link to="/" class="link text-mygreen text-4xl hover-blink">projects</router-link>
-                  </li>
-                </ul>
+           
               </div>
             </div>
           </nav>
@@ -29,27 +22,20 @@
 
 <div id="default-carousel" class="relative w-full" data-carousel="static">
     <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+    <div class="relative h-96 overflow-hidden carimg">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <img src="../assets/images/pumplink.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../assets/images/swrv.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="../assets/images/plink2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../assets/images/pumplink.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="../assets/images/plink3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
-        <!-- Item 4 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../assets/images/pumplink.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 5 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../assets/images/pumplink.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
+      
     </div>
     <!-- Slider indicators -->
     <div class="flex justify-center space-x-4">
@@ -59,27 +45,15 @@
     </button>
     <!-- Thumbnail for Slide 2 -->
     <button type="button" class="w-24 h-24 overflow-hidden" data-carousel-slide-to="1">
-      <img src="../assets/images/swrv.jpg" alt="Thumbnail 2">
+      <img src="../assets/images/plink2.jpg" alt="Thumbnail 2">
     </button>
     <!-- Add more thumbnails for other slides -->
+    <button type="button" class="w-24 h-24 overflow-hidden" data-carousel-slide-to="2">
+      <img src="../assets/images/plink3.jpg" alt="Thumbnail 2">
+    </button>
   </div>
     <!-- Slider controls -->
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-mygreen dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-mygreen dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
+   
 </div>
 
 
@@ -87,16 +61,18 @@
    
   </div>
 
-  <div class="ml-10">
-    <p>gggggggg</p>
+  <div class="ml-20 mt-24">
+  <router-link to="main"><h1 class="text-mygreen">back</h1></router-link>
   </div>
 
 
 
 
     </div>
-    <div class="pt-32 welcome-block ml-24">
-       <p>g</p>
+    <div class="pt-32  ml-10 proj-desc mb-20">
+       <p class="text-2xl">Pumplink is an overhaul I'm doing for a company site. It's based on laravel and mySQL to display the products and services on offer.  I used bootsrap for its grid layout and component structure, with a simple blue/yellow color scheme carried over from the previous design.
+         The site also needed a quotation generator, which I implimented by combining a shopping cart-like system for users to select the desired products and services, and then process it in a template page, which is then converted to a PDF for the user to download. It also has a basic search function using jquery to search up the items within the database.                     
+    </p>
     </div>
 
     </div>
@@ -176,6 +152,14 @@ onMounted(() => {
 #default-carousel button {
     /* Remove the background color */
     background-color: transparent;
+}
+
+.proj-desc{
+    width: 1200px;
+}
+
+.carimg{
+  height: 800px;
 }
 
 </style>
