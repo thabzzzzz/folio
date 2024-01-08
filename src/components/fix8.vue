@@ -73,6 +73,9 @@
       <p class="text-2xl">
         fix8 is a site where users can create events and have them available for others to attend. It combines PHP and mySQL to store the events data, which allows users to create, edit and rate each others events. Users can also edit their profiles 
    </p>
+   <a href="https://github.com/thabzzzzz/fix8" target="_blank" rel="noopener noreferrer">
+      <h4 class="mt-10 text-mygreen">github</h4>
+    </a>
    </div>
 
    </div>

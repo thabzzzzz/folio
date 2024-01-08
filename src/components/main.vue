@@ -355,7 +355,7 @@
     
   </div>
   <a href="mailto:tmoseohi99@gmail.com " target="_blank" rel="noopener noreferrer">
-    <h4 class="text-4xl text-mygreen mb-24 mt-10">tmoseohi99@gmail.com</h4>
+    <h4 class="text-4xl text-mygreen mb-24 mt-10">tmosenohi99@gmail.com</h4>
     </a>
  
 </div>

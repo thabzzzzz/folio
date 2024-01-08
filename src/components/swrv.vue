@@ -72,6 +72,9 @@ Focuses on user interactivity and feedback via subtle
 animations and the SPA model. Has search and filter
 functionality all done via Vue. This functionality is fully animated for an enhanced user experience and feedback 
     </p>
+    <a href="https://github.com/thabzzzzz/movie-site" target="_blank" rel="noopener noreferrer">
+      <h4 class="mt-10 text-mygreen">github</h4>
+    </a>
    </div>
 
    </div>
