@@ -341,7 +341,7 @@
 
 
           <div class="gameover text-center col-span-6">
-  <h4 class="text-4xl text-mygreen mb-24">Contact me</h4>
+  <h4 class="text-4xl text-mygreen mb-24">contact me</h4>
   <p class="text-3xl mb-20">
     I'm currently looking for a junior front-end or back-end web development role. Whether you have a question, offer, or just want to chat, feel free to contact me, and I'll get back to you!
   </p>
@@ -352,7 +352,12 @@
     <a href="https://github.com/thabzzzzz" target="_blank" rel="noopener noreferrer">
       <img src="../assets/images/gh.svg" class="contact-icons w-24 mx-4">
     </a>
+    
   </div>
+  <a href="mailto:tmoseohi99@gmail.com " target="_blank" rel="noopener noreferrer">
+    <h4 class="text-4xl text-mygreen mb-24 mt-10">tmoseohi99@gmail.com</h4>
+    </a>
+ 
 </div>
 
 
