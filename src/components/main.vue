@@ -471,7 +471,7 @@
     }
 
     .skillblock{
-        width: 400px;
+        width: 300px;
     }
 
     .flex {
