@@ -70,11 +70,24 @@
 to deliver a dynamic list of the latest movies to browse.
 Focuses on user interactivity and feedback via subtle 
 animations and the SPA model. Has search and filter
-functionality all done via Vue. This functionality is fully animated for an enhanced user experience and feedback 
+functionality, ability to view trailers through a conditional modal, responsive design for phone screens, a backlog that tracks the total hours of movies the user wants to watch and can be interacted with, 404 error and URL handling. All done via Vue. This functionality is fully animated for an enhanced user experience and feedback 
+
+
     </p>
-    <a href="https://github.com/thabzzzzz/movie-site" target="_blank" rel="noopener noreferrer">
-      <h4 class="mt-10 text-mygreen">github</h4>
+<br>
+    <p class="text-2xl">
+      Challanges were figuring out how to impliment the backlog without a backend system like PHP, which I decided to use local storage for it. The modal to show the trailer was also a challange as I had to make a seperate API call to check the movie trailer on Youtube and splice it together into the modal
+
+    </p>
+    <div class="flex mt-10">
+    <a href="https://jazzy-naiad-9610a6.netlify.app" target="_blank" rel="noopener noreferrer" class="mr-4">
+        <h4 class="text-mygreen">visit</h4>
     </a>
+    <a href="https://github.com/thabzzzzz/movie-site" target="_blank" rel="noopener noreferrer">
+        <h4 class="text-mygreen ml-20">github</h4>
+    </a>
+</div>
+
    </div>
 
    </div>

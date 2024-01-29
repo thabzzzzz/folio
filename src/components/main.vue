@@ -211,9 +211,97 @@
             <h4 class="text-4xl text-mygreen ">projects</h4>
  </div>
         <div class="grid grid-cols-6 my-40">
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="col-span-4 ">
+           <router-link to="swrv"><h3 class="mb-10 text-4xl pr-24">1. SWRV</h3></router-link>
+           <router-link to="swrv"><img src="../assets/images/swrv.jpg" class="project-imgs mb-16" alt="swrv"></router-link>
+           <p class="text-3xl">
+            Movie browsing site where users can search and filter curated movie releases dynamically updated through the moviesDB api.
+            </p>
+          </div>
+          
+          <div class="swrv-description">
+           <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
+              <div class="">
+                <img src="../assets/images/api.png"  class="w-56">
+                
+              </div>
+              <div >
+                <img src="../assets/images/tailwind.png" class="w-56">
+              </div>
+              <div >
+                <img src="../assets/images/html.png" >
+              </div>
+
+              <div >
+                <img src="../assets/images/vue.png" >
+              </div>
+
+           </div>
+          </div>
+
+          <!-- end of swrv -->
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="col-span-2 secondprojsb">
+            <div class="mini-skills grid grid-cols-2 gap-2 ">
+            
+              <div class="even-div sb2">
+                <img src="../assets/images/php.png" class="w-40">
+              </div>
+
+              <div class="even-div">
+                <img src="../assets/images/mysql.png" class="w-40">
+              </div>
+
+              <div class="even-div sb2">
+                <img src="../assets/images/jquery.png" class="w-40">
+              </div>
+
+           </div>
+          </div>
+          
+          <div class="col-span-4 mb-96">
+            <router-link to="fix8"><h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. fix8</h3></router-link>
+            <router-link to="fix8"><img src="../assets/images/fix8.jpg" class="project-imgs mb-16" alt="fix8"></router-link>
+           <p class="text-3xl proj-description">
+
+            Event creation site where users can post events for others to see. The events can be edited by the original user and displayed on the feed for other users to see, who can then rate the events. 
+
+            </p>
+          </div>
+          <!-- end of survey -->
+
+
+
+
+
+
+
           
           <div class="col-span-4">
-            <router-link to="pumplink"> <h3 class="mb-10 text-4xl pr-24">1. Pumplink</h3></router-link>
+            <router-link to="pumplink"> <h3 class="mb-10 text-4xl pr-24">3. Pumplink</h3></router-link>
           
            <router-link to="pumplink"><img src="../assets/images/pumplink.jpg" class="project-imgs mb-16" alt="pumplink"></router-link>
            <p class="text-3xl">Site rebuild and rebrand for Pumplink using Laravel. 
@@ -244,6 +332,11 @@
           </div>
           
           <!-- end of pumplink -->
+
+
+
+
+          
  
           <div class="col-span-2 secondprojsb">
             <div class="mini-skills2 grid grid-cols-2 gap-2 ">
@@ -270,7 +363,7 @@
           </div>
           
           <div class="col-span-4 mb-96">
-            <router-link to="genie"><h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. genie</h3></router-link>
+            <router-link to="genie"><h3 class="mb-10 text-4xl pr-24  even-name odd-name">4. genie</h3></router-link>
            <router-link to="genie"><img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie"></router-link> 
            <p class="text-3xl proj-description">
             Wishlist site where users can create/modify or delete wishlist items
@@ -280,71 +373,38 @@
 
           <!-- end of genie -->
 
-          <div class="col-span-4 ">
-           <router-link to="swrv"><h3 class="mb-10 text-4xl pr-24">3. SWRV</h3></router-link>
-           <router-link to="swrv"><img src="../assets/images/swrv.jpg" class="project-imgs mb-16" alt="swrv"></router-link>
-           <p class="text-3xl">
-            Movie browsing site where users can search and filter curated movie releases dynamically updated through the moviesDB api.
-            </p>
-          </div>
-          
-          <div class="swrv-description">
-           <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
-              <div class="">
-                <img src="../assets/images/api.png"  class="w-56">
-                
-              </div>
-              <div >
-                <img src="../assets/images/tailwind.png" class="w-56">
-              </div>
-              <div >
-                <img src="../assets/images/html.png" >
-              </div>
 
-              <div >
-                <img src="../assets/images/vue.png" >
-              </div>
 
-           </div>
-          </div>
 
-          <!-- end of swrv -->
 
-          <div class="col-span-2 secondprojsb">
-            <div class="mini-skills grid grid-cols-2 gap-2 ">
-            
-              <div class="even-div sb2">
-                <img src="../assets/images/php.png" class="w-40">
-              </div>
 
-              <div class="even-div">
-                <img src="../assets/images/mysql.png" class="w-40">
-              </div>
 
-              <div class="even-div sb2">
-                <img src="../assets/images/jquery.png" class="w-40">
-              </div>
+     
 
-           </div>
-          </div>
-          
-          <div class="col-span-4 mb-96">
-            <router-link to="fix8"><h3 class="mb-10 text-4xl pr-24  even-name odd-name">4. fix8</h3></router-link>
-            <router-link to="fix8"><img src="../assets/images/fix8.jpg" class="project-imgs mb-16" alt="fix8"></router-link>
-           <p class="text-3xl proj-description">
 
-            Event creation site where users can post events for others to see. The events can be edited by the original user and displayed on the feed for other users to see, who can then rate the events. 
 
-            </p>
-          </div>
-          <!-- end of survey -->
+
+
+
+
+      
+
+
+
+
+
+
+
+
 
 
           <div class="gameover text-center col-span-6">
   <h4 class="text-4xl text-mygreen mb-24">contact me</h4>
   <p class="text-3xl mb-20">
-    I'm currently looking for a junior front-end or back-end web development role. Whether you have a question, offer, or just want to chat, feel free to contact me, and I'll get back to you!
+    Thanks for checking out my portfolio. I'm currently looking for a junior front-end or back-end web development role. Whether you have a question, offer, or just want to chat, feel free to contact me, and I'll get back to you!
   </p>
+
+
   <div class="flex justify-center">
     <a href="https://www.linkedin.com/in/thabiso-mosenohi-822945284/" target="_blank" rel="noopener noreferrer">
       <img src="../assets/images/linkedin.svg" class="contact-icons w-24 mx-4">

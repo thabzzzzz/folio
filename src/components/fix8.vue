@@ -71,11 +71,23 @@
    </div>
    <div class="pt-32  ml-10 proj-desc mb-20">
       <p class="text-2xl">
-        fix8 is a site where users can create events and have them available for others to attend. It combines PHP and mySQL to store the events data, which allows users to create, edit and rate each others events. Users can also edit their profiles 
+        fix8 is a site where users can create events and have them available for others to attend. It combines PHP and mySQL to store the events data, which allows users to create, edit and rate each others events. Users can also edit their profiles.
+        It has security in the form of prepare statements and client-side sanitation, and the user doesnt have to re-enter previous info when updating events or their profile, it automatically only saves the changed fields and keeps the previous ones. 
    </p>
-   <a href="https://github.com/thabzzzzz/fix8" target="_blank" rel="noopener noreferrer">
-      <h4 class="mt-10 text-mygreen">github</h4>
+   <br>
+   <p class="text-2xl">
+    Credentials for demo: Username - jack, Password - 1234
+
+   </p>
+   <div class="flex mt-10">
+    <a href="https://plinkza.000webhostapp.com/" target="_blank" rel="noopener noreferrer" class="mr-4">
+        <h4 class="text-mygreen">visit</h4>
     </a>
+    <a href="https://github.com/thabzzzzz/fix8" target="_blank" rel="noopener noreferrer">
+        <h4 class="text-mygreen ml-20">github</h4>
+    </a>
+</div>
+
    </div>
 
    </div>

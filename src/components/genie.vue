@@ -73,6 +73,12 @@
       <p class="text-2xl">   
         genie is a wishlist site where users can register an account and create their personal wishlists. Once registerd, users can create, delete and update their wishlist items. Unregistered users and users that try to access the main page are instead redirected to the login/registration page. It also has simple search funtionality to quickly look up specific items. It has data aggregation in the form of price summation and formatting, and displays the items via bootstrap cards. The design is a simple snow-white with black for text and icon elements             
    </p>
+<br>
+   <p class="text-2xl">
+    Contact me for a quick live demo as I'm still sorting out hosting for my Larvel projects, or check out the github link
+
+   </p>
+   
    <a href="https://github.com/thabzzzzz/orbit-3" target="_blank" rel="noopener noreferrer">
       <h4 class="mt-10 text-mygreen">github</h4>
     </a>
