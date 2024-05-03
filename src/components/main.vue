@@ -401,7 +401,7 @@
           <div class="gameover text-center col-span-6">
   <h4 class="text-4xl text-mygreen mb-24">contact me</h4>
   <p class="text-3xl mb-20">
-    Thanks for checking out my portfolio. I'm currently looking for a junior front-end or back-end web development role. Whether you have a question, offer, or just want to chat, feel free to contact me, and I'll get back to you!
+    Thanks for checking out my portfolio. I'm currently looking for a junior front-end, back-end or full stack web development role. Whether you have a question, offer, or just want to chat, feel free to contact me, and I'll get back to you!
   </p>
 
 
