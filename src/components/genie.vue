@@ -25,15 +25,19 @@
    <div class="relative h-96 overflow-hidden carimg">
         <!-- Item 1 -->
        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-           <img src="../assets/images/genie.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+           <img src="../assets/images/genie1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
        </div>
        <!-- Item 2 -->
        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-           <img src="../assets/images/g2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+           <img src="../assets/images/genie2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
        </div>
        <!-- Item 3 -->
        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-           <img src="../assets/images/g3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+           <img src="../assets/images/genie3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+       </div>
+
+       <div class="hidden duration-700 ease-in-out" data-carousel-item>
+           <img src="../assets/images/genie4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
        </div>
      
    </div>
@@ -41,15 +45,19 @@
    <div class="flex justify-center space-x-4">
    <!-- Thumbnail for Slide 1 -->
    <button type="button" class="w-24 h-24  overflow-hidden" data-carousel-slide-to="0">
-     <img src="../assets/images/genie.jpg" alt="Thumbnail 1">
+     <img src="../assets/images/genie1.jpg" alt="Thumbnail 1">
    </button>
    <!-- Thumbnail for Slide 2 -->
    <button type="button" class="w-24 h-24 overflow-hidden" data-carousel-slide-to="1">
-     <img src="../assets/images/g2.jpg" alt="Thumbnail 2">
+     <img src="../assets/images/genie2.jpg" alt="Thumbnail 2">
    </button>
-   <!-- Add more thumbnails for other slides -->
+   
    <button type="button" class="w-24 h-24 overflow-hidden" data-carousel-slide-to="2">
-     <img src="../assets/images/g3.jpg" alt="Thumbnail 2">
+     <img src="../assets/images/genie3.jpg" alt="Thumbnail 2">
+   </button>
+
+   <button type="button" class="w-24 h-24 overflow-hidden" data-carousel-slide-to="2">
+     <img src="../assets/images/genie4.jpg" alt="Thumbnail 2">
    </button>
  </div>
    
@@ -71,15 +79,14 @@
    </div>
    <div class="pt-32  ml-10 proj-desc mb-20">
       <p class="text-2xl">   
-        genie is a wishlist site where users can register an account and create their personal wishlists. Once registerd, users can create, delete and update their wishlist items. Unregistered users and users that try to access the main page are instead redirected to the login/registration page. It also has simple search funtionality to quickly look up specific items. It has data aggregation in the form of price summation and formatting, and displays the items via bootstrap cards. The design is a simple snow-white with black for text and icon elements             
-   </p>
+       genie is a full stack gaming platform, built using Laravel and Vue.js and integrating SQL database and fetching game data from the RAWG API. Users can enjoy browsing, searching, and adding games to their collections, with the ability to rate them. The site features a robust authentication system and secure profile customization options.   </p>
 <br>
    <p class="text-2xl">
-    Contact me for a quick live demo as I'm still sorting out hosting for my Larvel projects, or check out the github link
+    Feel free to contact me for a quick live demo or check out the github link
 
    </p>
    
-   <a href="https://github.com/thabzzzzz/orbit-3" target="_blank" rel="noopener noreferrer">
+   <a href="https://github.com/thabzzzzz/genie" target="_blank" rel="noopener noreferrer">
       <h4 class="mt-10 text-mygreen">github</h4>
     </a>
    </div>

@@ -345,7 +345,7 @@
                 
               </div>
               <div class="even-div ">
-                <img src="../assets/images/bootstrap.png" class="w-40" >
+                <img src="../assets/images/tailwind.png" class="w-40" >
               </div>
               <div class="even-div sb2">
                 <img src="../assets/images/html.png" class="w-40">
@@ -356,7 +356,7 @@
               </div>
 
               <div class="even-div sb2">
-                <img src="../assets/images/jquery.png" class="w-40">
+                <img src="../assets/images/vue.png" class="w-40">
               </div>
 
            </div>
@@ -364,9 +364,9 @@
           
           <div class="col-span-4 mb-96">
             <router-link to="genie"><h3 class="mb-10 text-4xl pr-24  even-name odd-name">4. genie</h3></router-link>
-           <router-link to="genie"><img src="../assets/images/genie.jpg" class="project-imgs mb-16" alt="genie"></router-link> 
+           <router-link to="genie"><img src="../assets/images/genie1.jpg" class="project-imgs mb-16" alt="genie"></router-link> 
            <p class="text-3xl proj-description">
-            Wishlist site where users can create/modify or delete wishlist items
+            Full stack game platform where users can browse the latest games and create their own collection
 
             </p>
           </div>
