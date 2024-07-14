@@ -5,41 +5,37 @@
         
     <div class="min-h-screen bg-mygrey flex flex-col  relative " id="page-top">
         <div class="mx-4">
-            <nav>
-            <div class="max-w-screen flex flex-wrap items-center justify-between mx-0">
-              <ul class="font-medium flex flex-col mt-4 bg-mygrey">
-                <li class="homelink start-again-link">
-                  <router-link to="/" class="link text-mygreen text-4xl">thabiso</router-link>
-                </li>
-              </ul>
-              <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="font-medium flex flex-row p-4 md:p-0 mt-4 bg-mygrey">
-                  <li class="start-again-link">
-                    <router-link to="#aboutme" class="link text-mygreen mr-16 text-4xl hover-blink">about</router-link>
-                  </li>
-                  <li class="start-again-link">
-                    <router-link to="#projects" class="link text-mygreen text-4xl hover-blink">projects</router-link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
 
-    <div class="grid grid-cols-6 mt-48">
+          <nav>
+  <div class="max-w-screen flex items-center justify-between mx-0 p-0">
+    <ul class="font-medium flex mt-4 bg-mygrey flex-grow-0 p-0 m-0">
+      <li class="homelink start-again-link">
+        <router-link to="/" class="link text-mygreen text-4xl p-0 m-0">thabiso</router-link>
+      </li>
+    </ul>
+    <div class="hidden w-full md:block md:w-auto ml-auto p-0 m-0" id="navbar-default">
+      <ul class="font-medium flex flex-row p-0 mt-4 bg-mygrey space-x-0">
+        <li class="start-again-link p-0 m-0">
+          <router-link to="#aboutme" class="link text-mygreen text-4xl hover-blink p-0 m-0">about</router-link>
+        </li>
+        <li class="start-again-link p-0 m-0">
+          <router-link to="#projects" class="link text-mygreen text-4xl hover-blink p-0 ml-10">projects</router-link>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <div class="col-span-4">
-        
-        <p class="mt-24 text-4xl ml-20">I craft digital solutions that immerse and inspire<br>
-            
-    people through development and design.</p>
-    </div>
-    <div class="pt-10 welcome-block ml-24">
-        <h2 class="welcome text-6xl" id="w1">welcome</h2>
-        <h2 class="welcome text-6xl mt-6" id="w2">welcome</h2>
-        <h2 class="welcome text-5xl mt-6" id="w3">welcome</h2>
-    </div>
 
-    </div>
+
+<div class="grid grid-cols-6 mt-48">
+  <div class="col-span-3">
+    <p class="mt-24 text-4xl ">I craft digital solutions that immerse and inspire<br> people through development and design.</p>
+  </div>
+  <div class="col-span-1"></div>
+  <div class="welcome-block ml-24">
+    <h2 class="welcome text-6xl" id="w1" style="grid-column-end: span 6;">welcome</h2> <h2 class="welcome text-6xl mt-6" id="w2" style="grid-column-end: span 6;">welcome</h2> <h2 class="welcome text-5xl mt-6" id="w3" style="grid-column-end: span 6;">welcome</h2> </div>
+  </div>
 
     </div>
 
@@ -460,9 +456,7 @@
         
     }
 
-    .homelink{
-        margin-right: 600px;
-    }
+   
     #test{
         right: 0;
         position: absolute;
@@ -498,7 +492,7 @@
       font-family: start;
       position: relative;
       display: inline-block;
-      padding: 10px 20px;
+      
     }
 
 
@@ -634,5 +628,32 @@
   50% {
     background-color: rgba(0,0,0,0);
   }
+}
+@media (max-width: 1600px) {
+  .section2 {
+        text-align: center; /* Center the text */
+        margin: 0 auto; /* Center the div itself */
+    }
+
+    .about-me {
+        text-align: center; /* Center the "about me" header */
+    }
+
+    .photo {
+        width: 100%; /* Adjust the width if needed */
+        margin: 0 auto 20px; /* Center the image */
+        display: block; /* Make the image a block element */
+    }
+
+    .grid {
+        display: flex; /* Use flexbox for alignment */
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center children elements */
+    }
+
+    .grid > div {
+        width: 100%; /* Ensure full width for child elements */
+        max-width: 600px; /* Optional: limit max width */
+    }
 }
     </style>
