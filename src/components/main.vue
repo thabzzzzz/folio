@@ -100,58 +100,53 @@
             <h4 class="text-4xl text-mygreen mb-24 ">skills</h4>
         </div>
         
-
-        <div class="flex items-center mb-24">
-            <h2 class="text-5xl">Frontend:</h2>
-            <img src="../assets/images/f.png" alt="metalslug f" class="ml-2 w-16" />
-        </div>
-
-        <!-- front end skills -->
-
-        <div class="grid grid-cols-2 pl-52 mb-40">
-
-            <div class="text-center mb-24">
-                <img src="../assets/images/html.png" alt="html" class="skillblock">
-            </div>
-            <div class="text-center mb-24">
-                <img src="../assets/images/css.png" alt="css" class="skillblock">
-            </div>
-
-            <div class="text-center mb-24">
-                <img src="../assets/images/js.png" alt="js" class="skillblock">
-            </div>
-            <div class="text-center mb-24">
-                <img src="../assets/images/jquery.png" alt="jquery" class="skillblock">
-            </div>
-
-
-            <div class="text-center mb-24">
-                <img src="../assets/images/vue.png" alt="vue" class="skillblock">
-            </div>
-            <div class="text-center mb-24">
-                <img src="../assets/images/bootstrap.png" alt="bootstrap" class="skillblock">
-            </div>
-
-            <div class="text-center mb-24">
-                <img src="../assets/images/tailwind.png" alt="tailwind" class="skillblock">
-            </div>
-            
-
-
         
+        <div class="flex items-center justify-center mb-24">
+    <h2 class="text-5xl">Frontend:</h2>
+    <img src="../assets/images/f.png" alt="metalslug f" class="ml-2 w-16" />
+</div>
 
+        <!-- front end skills start -->
 
+        <div class=" mb-40">
 
+          <div class="skill-container">
+    <div class="skillcol1 text-center mb-24">
+        <img src="../assets/images/html.png" alt="html" class="skillblock">
+    </div>
+    <div class="text-center mb-24">
+        <img src="../assets/images/css.png" alt="css" class="skillblock">
+    </div>
+    <div class="text-center mb-24">
+        <img src="../assets/images/js.png" alt="js" class="skillblock">
+    </div>
+    <div class="text-center mb-24">
+        <img src="../assets/images/jquery.png" alt="jquery" class="skillblock">
+    </div>
+    <div class="skillcol2 text-center mb-24">
+        <img src="../assets/images/vue.png" alt="vue" class="skillblock">
+    </div>
+    <div class="text-center mb-24">
+        <img src="../assets/images/bootstrap.png" alt="bootstrap" class="skillblock">
+    </div>
+    <div class="text-center mb-24">
+        <img src="../assets/images/tailwind.png" alt="tailwind" class="skillblock">
+    </div>
+</div>
+          
         </div>
-        <div class="flex items-center mb-24">
+
+
+
+        <div class="flex items-center justify-center mb-24">
             <h2 class="text-5xl">Backend:</h2>
             <img src="../assets/images/b.png" alt="metalslug b" class="ml-2 w-16" />
         </div>
 
         <!-- backend skills -->
 
-        <div class="grid grid-cols-2 pl-52 mb-40">
-
+        <div class=" mb-40">
+          <div class="skill-container">
             <div class="text-center mb-24">
                 <img src="../assets/images/php.png" alt="php" class="skillblock">
             </div>
@@ -165,21 +160,22 @@
             <div class="text-center mb-24">
                 <img src="../assets/images/api.png" alt="api" class="skillblock">
             </div>
-
+          </div>
 
         </div>
 
     <!-- end of backend -->
 
-    <div class="flex items-center mb-24">
+    <div class="flex items-center justify-center mb-24">
             <h2 class="text-5xl">Tools:</h2>
             <img src="../assets/images/t.png" alt="metalslug t" class="ml-2 w-16" />
         </div>
 
         <!-- backend skills -->
 
-        <div class="grid grid-cols-2 pl-52">
+        <div class=" mb-40">
 
+          <div class="skill-container">
             <div class="text-center mb-24">
                 <img src="../assets/images/git.png" alt="git" class="skillblock">
             </div>
@@ -193,7 +189,7 @@
             <div class="text-center mb-24">
                 <img src="../assets/images/illustrator.png" alt="api" class="skillblock">
             </div>
-
+            </div>
 
         </div>
 
@@ -631,29 +627,56 @@
 }
 @media (max-width: 1600px) {
   .section2 {
-        text-align: center; /* Center the text */
-        margin: 0 auto; /* Center the div itself */
+        text-align: center; 
+        margin: 0 auto;
     }
 
     .about-me {
-        text-align: center; /* Center the "about me" header */
+        text-align: center; 
     }
 
     .photo {
-        width: 100%; /* Adjust the width if needed */
-        margin: 0 auto 20px; /* Center the image */
-        display: block; /* Make the image a block element */
+        width: 100%; 
+        margin: 0 auto 20px; 
+        display: block; 
     }
 
     .grid {
-        display: flex; /* Use flexbox for alignment */
-        flex-direction: column; /* Stack elements vertically */
-        align-items: center; /* Center children elements */
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .grid > div {
-        width: 100%; /* Ensure full width for child elements */
-        max-width: 600px; /* Optional: limit max width */
+        width: 100%; 
+        max-width: 600px; 
     }
 }
+
+.skill-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem; 
+    justify-items: center; 
+}
+
+.skillblock {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+}
+
+@media (max-width: 1600px) {
+    .skill-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-container {
+        grid-template-columns: 1fr; 
+    }
+}
+
+
     </style>
