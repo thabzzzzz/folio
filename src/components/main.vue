@@ -459,7 +459,7 @@
 
           </div>
 
-          <router-link to="#page-top" class="start-again-link">
+          <router-link to="#page-top" class="start-again-link ">
             <h4 class=" text-4xl  text-mygreen">start again</h4>
           </router-link>
 
@@ -528,6 +528,7 @@ p {
   display: inline-block;
 
 }
+
 
 
 
