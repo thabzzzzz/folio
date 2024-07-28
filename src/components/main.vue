@@ -245,19 +245,19 @@
 
         <div class="swrv-description">
           <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
-            <div class="">
-              <img src="../assets/images/api.png" class="w-56">
+            <div class="proj-skills">
+              <img src="../assets/images/api.png" class="w-40">
 
             </div>
             <div>
-              <img src="../assets/images/tailwind.png" class="w-56">
+              <img src="../assets/images/tailwind.png" class="w-40">
             </div>
             <div>
-              <img src="../assets/images/html.png">
+              <img src="../assets/images/html.png" class="w-40">
             </div>
 
             <div>
-              <img src="../assets/images/vue.png">
+              <img src="../assets/images/vue.png" class="w-40">
             </div>
 
           </div>
@@ -272,31 +272,9 @@
 
 
 
-
-
-
-
-        <div class="col-span-2 secondprojsb">
-          <div class="mini-skills grid grid-cols-2 gap-2 ">
-
-            <div class="even-div sb2">
-              <img src="../assets/images/php.png" class="w-40">
-            </div>
-
-            <div class="even-div">
-              <img src="../assets/images/mysql.png" class="w-40">
-            </div>
-
-            <div class="even-div sb2">
-              <img src="../assets/images/jquery.png" class="w-40">
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-span-4 mb-96">
+        <div class="col-span-4 mb-2">
           <router-link to="fix8">
-            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">2. fix8</h3>
+            <h3 class="mb-10 text-4xl pr-24  ">2. fix8</h3>
           </router-link>
           <router-link to="fix8"><img src="../assets/images/fix8.jpg" class="project-imgs mb-16"
               alt="fix8"></router-link>
@@ -307,6 +285,30 @@
 
           </p>
         </div>
+
+
+
+        <div class="col-span-2 mb-20 ">
+          <div class="proj-skills">
+          <div class="mini-skills grid grid-cols-2 gap-2 ">
+
+            <div class="">
+              <img src="../assets/images/php.png" class="w-40">
+            </div>
+
+            <div class="">
+              <img src="../assets/images/mysql.png" class="w-40">
+            </div>
+
+            <div class="">
+              <img src="../assets/images/jquery.png" class="w-40">
+            </div>
+
+          </div>
+        </div>
+        </div>
+
+        
         <!-- end of survey -->
 
 
@@ -330,24 +332,24 @@
           </p>
         </div>
 
-        <div class="mb-96">
+        <div class="col-span-2 mb-20 ">
+          <div class="proj-skills">
           <div class="mini-skills grid grid-cols-2 gap-2 ">
+
             <div class="">
-              <img src="../assets/images/laravel.png" class="w-56">
-
-            </div>
-            <div>
-              <img src="../assets/images/bootstrap.png" class="w-56">
-            </div>
-            <div>
-              <img src="../assets/images/html.png">
+              <img src="../assets/images/laravel.png" class="w-40">
             </div>
 
-            <div>
-              <img src="../assets/images/mysql.png">
+            <div class="">
+              <img src="../assets/images/mysql.png" class="w-40">
+            </div>
+
+            <div class="">
+              <img src="../assets/images/bootstrap.png" class="w-40">
             </div>
 
           </div>
+        </div>
         </div>
 
         <!-- end of pumplink -->
@@ -356,42 +358,48 @@
 
 
 
+<!-- start of genie -->
 
-        <div class="col-span-2 secondprojsb">
-          <div class="mini-skills2 grid grid-cols-2 gap-2 ">
-            <div class="even-div sb2">
-              <img src="../assets/images/laravel.png" class="w-40">
-
-            </div>
-            <div class="even-div ">
-              <img src="../assets/images/tailwind.png" class="w-40">
-            </div>
-            <div class="even-div sb2">
-              <img src="../assets/images/html.png" class="w-40">
-            </div>
-
-            <div class="even-div">
-              <img src="../assets/images/mysql.png" class="w-40">
-            </div>
-
-            <div class="even-div sb2">
-              <img src="../assets/images/vue.png" class="w-40">
-            </div>
-
-          </div>
-        </div>
-
-        <div class="col-span-4 mb-96">
-          <router-link to="genie">
-            <h3 class="mb-10 text-4xl pr-24  even-name odd-name">4. genie</h3>
+<div class="col-span-4">
+          <router-link to="pumplink">
+            <h3 class="mb-10 text-4xl pr-24">4. genie</h3>
           </router-link>
-          <router-link to="genie"><img src="../assets/images/genie1.jpg" class="project-imgs mb-16"
-              alt="genie"></router-link>
-          <p class="text-3xl proj-description">
+
+          <router-link to="pumplink"><img src="../assets/images/pumplink.jpg" class="project-imgs mb-16"
+              alt="pumplink"></router-link>
+          <p class="text-3xl">
             Full stack game platform where users can browse the latest games and create their own collection
 
           </p>
         </div>
+
+        <div class="col-span-2 mb-20 ">
+          <div class="proj-skills">
+          <div class="mini-skills grid grid-cols-2 gap-2 ">
+
+            <div class="">
+              <img src="../assets/images/laravel.png" class="w-40">
+            </div>
+
+            <div class="">
+              <img src="../assets/images/mysql.png" class="w-40">
+            </div>
+
+            <div class="">
+              <img src="../assets/images/vue.png" class="w-40">
+            </div>
+            <div class="">
+              <img src="../assets/images/tailwind.png" class="w-40">
+            </div>
+
+          </div>
+        </div>
+        </div>
+
+
+
+
+
 
         <!-- end of genie -->
 
@@ -690,6 +698,16 @@ h3 {
     width: 100%;
     max-width: 600px;
   }
+  .mini-skills {
+  padding-top: 80px;
+  justify-content: center;
+}
+.project-skills{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
 }
 
 .skill-container {
@@ -713,7 +731,9 @@ h3 {
 @media (max-width: 1600px) {
   .skill-container {
     grid-template-columns: repeat(2, 1fr);
+  
   }
+ 
 }
 
 @media (max-width: 768px) {
