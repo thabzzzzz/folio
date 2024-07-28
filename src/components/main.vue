@@ -245,7 +245,7 @@
 
         <div class="swrv-description">
           <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
-            <div class="proj-skills">
+            <div >
               <img src="../assets/images/api.png" class="w-40">
 
             </div>
@@ -288,24 +288,22 @@
 
 
 
-        <div class="col-span-2 mb-20 ">
-          <div class="proj-skills">
-          <div class="mini-skills grid grid-cols-2 gap-2 ">
-
-            <div class="">
+        <div class="swrv-description">
+          <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
+            <div >
               <img src="../assets/images/php.png" class="w-40">
-            </div>
 
-            <div class="">
+            </div>
+            <div>
               <img src="../assets/images/mysql.png" class="w-40">
             </div>
-
-            <div class="">
+            <div>
               <img src="../assets/images/jquery.png" class="w-40">
             </div>
 
+            
+
           </div>
-        </div>
         </div>
 
         
@@ -332,24 +330,22 @@
           </p>
         </div>
 
-        <div class="col-span-2 mb-20 ">
-          <div class="proj-skills">
-          <div class="mini-skills grid grid-cols-2 gap-2 ">
-
-            <div class="">
+        <div class="swrv-description">
+          <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
+            <div >
               <img src="../assets/images/laravel.png" class="w-40">
-            </div>
 
-            <div class="">
+            </div>
+            <div>
+              <img src="../assets/images/bootstrap.png" class="w-40">
+            </div>
+            <div>
               <img src="../assets/images/mysql.png" class="w-40">
             </div>
 
-            <div class="">
-              <img src="../assets/images/bootstrap.png" class="w-40">
-            </div>
+           
 
           </div>
-        </div>
         </div>
 
         <!-- end of pumplink -->
@@ -361,39 +357,39 @@
 <!-- start of genie -->
 
 <div class="col-span-4">
-          <router-link to="pumplink">
+          <router-link to="genie">
             <h3 class="mb-10 text-4xl pr-24">4. genie</h3>
           </router-link>
 
-          <router-link to="pumplink"><img src="../assets/images/pumplink.jpg" class="project-imgs mb-16"
-              alt="pumplink"></router-link>
+          <router-link to="genie"><img src="../assets/images/genie1.jpg" class="project-imgs mb-16"
+              alt="genie"></router-link>
           <p class="text-3xl">
             Full stack game platform where users can browse the latest games and create their own collection
 
           </p>
         </div>
 
-        <div class="col-span-2 mb-20 ">
-          <div class="proj-skills">
-          <div class="mini-skills grid grid-cols-2 gap-2 ">
+        <div class="swrv-description">
+          <div class="mini-skills grid grid-cols-2 gap-2  mb-96">
 
-            <div class="">
+            <div >
               <img src="../assets/images/laravel.png" class="w-40">
-            </div>
 
-            <div class="">
-              <img src="../assets/images/mysql.png" class="w-40">
             </div>
+            <div >
+              <img src="../assets/images/api.png" class="w-40">
 
-            <div class="">
-              <img src="../assets/images/vue.png" class="w-40">
             </div>
-            <div class="">
+            <div>
               <img src="../assets/images/tailwind.png" class="w-40">
+            </div>
+            
+
+            <div>
+              <img src="../assets/images/vue.png" class="w-40">
             </div>
 
           </div>
-        </div>
         </div>
 
 
