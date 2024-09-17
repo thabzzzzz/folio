@@ -80,7 +80,7 @@
 
           <div class="text-2xl text-white s2 pt-20">
             Hi, I'm Thabiso Mosenohi. I'm a multidisciplinary
-            web developer based in Pretoria. Fluent
+            web developer based in Sandton, Johannesburg. Fluent
             in frontend, backend, and design, I combine
             these skills to craft a seamless, well-rounded
             digital solution.
