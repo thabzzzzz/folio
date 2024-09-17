@@ -318,15 +318,12 @@
 
         <div class="col-span-4">
           <router-link to="pumplink">
-            <h3 class="mb-10 text-4xl pr-24">3. Pumplink</h3>
+            <h3 class="mb-10 text-4xl pr-24">3. Quizzy</h3>
           </router-link>
 
-          <router-link to="pumplink"><img src="../assets/images/pumplink.jpg" class="project-imgs mb-16"
+          <router-link to="pumplink"><img src="../assets/images/quiz1.png" class="project-imgs mb-16"
               alt="pumplink"></router-link>
-          <p class="text-3xl">Site rebuild and rebrand for Pumplink using Laravel.
-            Needed some modernisation with UI elements and
-            theming, and a dynamic quotation generator for
-            their products and services
+          <p class="text-3xl">Developed a full-featured quiz app using Laravel and Vue.js, focusing on user participation, score tracking, and leaderboard management. Integrated with an SQL database for efficient data handling and featured secure authentication, real-time score updates, and a dynamic quiz interface. The app's intuitive UI provides a smooth user experience, allowing users to submit high scores and track their quiz performance over time.
           </p>
         </div>
 

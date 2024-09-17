@@ -25,15 +25,15 @@
     <div class="relative h-96 overflow-hidden carimg">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../assets/images/pumplink.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="../assets/images/quiz1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../assets/images/plink2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="../assets/images/quiz2.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 3 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="../assets/images/plink3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="../assets/images/quiz3.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
       
     </div>
@@ -41,15 +41,15 @@
     <div class="flex justify-center space-x-4">
     <!-- Thumbnail for Slide 1 -->
     <button type="button" class="w-24 h-24  overflow-hidden" data-carousel-slide-to="0">
-      <img src="../assets/images/pumplink.jpg" alt="Thumbnail 1">
+      <img src="../assets/images/quiz1.png" alt="Thumbnail 1">
     </button>
     <!-- Thumbnail for Slide 2 -->
     <button type="button" class="w-24 h-24 overflow-hidden" data-carousel-slide-to="1">
-      <img src="../assets/images/plink2.jpg" alt="Thumbnail 2">
+      <img src="../assets/images/quiz2.png" alt="Thumbnail 2">
     </button>
     <!-- Add more thumbnails for other slides -->
     <button type="button" class="w-24 h-24 overflow-hidden" data-carousel-slide-to="2">
-      <img src="../assets/images/plink3.jpg" alt="Thumbnail 2">
+      <img src="../assets/images/quiz3.png" alt="Thumbnail 2">
     </button>
   </div>
     <!-- Slider controls -->
@@ -70,13 +70,10 @@
 
     </div>
     <div class="pt-32  ml-10 proj-desc mb-20">
-       <p class="text-2xl">Pumplink is an overhaul I'm doing for a company site. It's based on laravel and mySQL to display the products and services on offer.  I used bootsrap for its grid layout and component structure, with a simple blue/yellow color scheme carried over from the previous design.
-         The site also needed a quotation generator, which I implimented by combining a shopping cart-like system for users to select the desired products and services, and then process it in a template page, which is then converted to a PDF for the user to download. It also has a basic search function using jquery to search up the items within the database.                     
-    </p>
+       <p class="text-2xl">
+        The quiz app is built using Laravel and MySQL, with Tailwind CSS for simple yet effective styling. It follows an SPA model for a smooth, app-wide experience and easy mobile adoption. Custom element animations add to the dynamic feel of the app. The secure database stores quiz scores, and users can track their results in real-time. With a focus on providing a seamless interface and intuitive experience, the app combines functionality and aesthetic simplicity for both desktop and mobile users.    </p>
 <br>
-    <p class="text-2xl">
-      Contact me for a quick live demo as I'm still sorting out hosting for my Larvel projects, or check out the github link
-    </p>
+ 
     <a href="https://github.com/thabzzzzz/pump-link" target="_blank" rel="noopener noreferrer">
       <h4 class="mt-10 text-mygreen">github</h4>
     </a>
